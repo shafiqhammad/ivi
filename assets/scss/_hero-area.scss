@@ -1,0 +1,21 @@
+.hero-area {
+    padding-top: 136px;
+    padding-bottom: 326px;
+    margin-top: 96px;
+    margin-bottom: 20px;
+
+
+    .hero-content {
+
+        h2 {
+            font-size: 65px;
+            line-height: 75px;
+            font-weight: 900;
+
+            @media #{$xs} {
+                font-size: 45px;
+                line-height: 55px;
+            }
+        }
+    }
+}
